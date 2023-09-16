@@ -5,6 +5,11 @@
   "repository": "moulibheemaneti/mb-nuxt-ui-kit",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "Nuxt3",
+    "UI Kit",
+    "Vue3"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
