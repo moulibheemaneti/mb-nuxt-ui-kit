@@ -1,4 +1,4 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver, addComponent } from '@nuxt/kit'
 import { join } from 'path';
 
 // Module options TypeScript interface definition
@@ -14,7 +14,7 @@ export default defineNuxtModule<ModuleOptions>({
   hooks: {
     "components:dirs"(dirs) {
       dirs.push({
-        path: join(__dirname, "components"),
+        path: join(__dirname, "./runtime/components"),
         prefix: "Mb",
       });
     },
