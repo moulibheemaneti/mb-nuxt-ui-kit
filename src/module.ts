@@ -1,4 +1,4 @@
-import { defineNuxtModule, addPlugin, createResolver, addComponent } from '@nuxt/kit'
+import { addPlugin, createResolver, defineNuxtModule } from '@nuxt/kit';
 import { join } from 'path';
 
 // Module options TypeScript interface definition
@@ -19,7 +19,7 @@ export default defineNuxtModule<ModuleOptions>({
       });
     },
   },
-  setup(options, nuxt) {
+  setup() {
     const resolver = createResolver(import.meta.url)
 
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`

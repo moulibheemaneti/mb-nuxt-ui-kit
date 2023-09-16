@@ -1,8 +1,8 @@
 {
   "name": "mb-nuxt-ui-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A new UI Kit for Nuxt3.",
-  "repository": "your-org/my-module",
+  "repository": "moulibheemaneti/mb-nuxt-ui-kit",
   "license": "MIT",
   "type": "module",
   "exports": {

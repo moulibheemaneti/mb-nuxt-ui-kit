@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "my-module-playground",
+  "name": "mb-nuxt-ui-kit-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",
